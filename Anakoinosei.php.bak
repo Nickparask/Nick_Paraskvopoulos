@@ -1,0 +1,5 @@
+
+
+<?php
+echo "Study " . $_GET['fname'] . " at " . $_GET['pass'];
+?>

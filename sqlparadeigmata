@@ -1,0 +1,24 @@
+CREATE TABLE Persons (
+    LastName varchar(255),
+    FirstName varchar(255),
+    email varchar(255),
+    password1 varchar(255),
+    PRIMARY KEY(email)
+);
+
+INSERT INTO persons (LastName, FirstName, email,password1)
+VALUES ("Paraskevopoulos", "Nick", "18091", "123");
+
+
+
+
+
+CREATE TABLE announcement (
+    Titlos varchar(255),
+    Anakoinosei varchar(2000),
+    Apostolea varchar(255),
+    PRIMARY KEY(Titlos)
+);
+
+INSERT INTO announcement ( Titlos, Anakoinosei,Apostolea)
+VALUES ("Dokimi", "Tpt apla dokimazo", "Paraskevopoulos");
